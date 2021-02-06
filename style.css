@@ -1,0 +1,36 @@
+.user-photo {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin: 50px 0;
+}
+
+.user-photo img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.photo {
+    height: 150px;
+    background-color: rgba(242, 242, 242, .50);
+    margin-bottom: 70px;
+}
+
+.icons i {
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    opacity: .50;
+}
+
+.icons i:hover {
+    color: green;
+    border-top: 3px solid green;
+}
+
+@media (max-width: 575.98px) {
+    .icons i {
+        font-size: 20px;
+    }
+}
